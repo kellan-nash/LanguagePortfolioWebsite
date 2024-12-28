@@ -1,0 +1,56 @@
+h1, p {
+    text-align: center;
+}
+h1 {
+    
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightblue;
+}
+div {
+    width: 60%;
+    height: 80%;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    margin-top: 20px;
+    max-width: 1000px;
+    
+}
+#artifactList {
+    background-color: blue;
+}
+fieldset {
+    width: 50%;
+    margin: auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+    
+}
+#reading, #writing, #speaking, #listening, #fileUpload, #reflection {
+    margin-left: 50px;
+}
+#reflection {
+    width: 80%;
+    height: 50px;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+button {
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+   
+
+}
+
+
+button:hover {
+    background-color: rgb(44, 150, 185);
+}
