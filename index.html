@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Portfolio</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <h1>Language Portfolio</h1>
+    <p>Kellan Nash</p>
+    
+    <div>
+        <h1>Create An Artifact</h1>
+        <form id="artifactForm">
+            <fieldset id="artifactType">
+                <label id="artifactType">Artifact Type: </label>
+                <article>
+                    <input type="checkbox" id="reading"/>
+                    <label for="reading">Reading</label>
+                </article>
+                <article>
+                    <input type="checkbox" id="writing"/>
+                    <label for="writing">Writing</label>
+                </article>
+                <article>
+                    <input type="checkbox" id="speaking"/>
+                    <label for="speaking">Speaking</label>
+                </article>
+                <article>
+                    <input type="checkbox" id="listening"/>
+                    <label for="listening">Listening</label>
+                </article>
+            </fieldset>
+        
+            <fieldset>
+                <label for="fileUpload">File Upload:</label>
+                <input id="fileUpload" type="file"/>
+            </fieldset>
+        
+            <fieldset>
+                <label>Reflection</label>
+                <textarea id="reflection"></textarea>
+            </fieldset>
+        
+            <button id="create">Create New Artifact</button>
+            <button id="save">Save Draft</button>
+        </form>
+    </div>
+
+    <div>
+        <h1>See Artifacts</h1>
+        <div id="artifactList"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
